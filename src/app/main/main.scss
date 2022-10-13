@@ -1,0 +1,44 @@
+:host {
+  padding-bottom: 9rem;
+  #cardView {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  #input {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    bottom: 3rem;
+    height: 3rem;
+    width: 50%;
+    max-width: 30rem;
+    background: hsla(0, 0%, 100%, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid hsla(0, 0%, 100%, 0.3);
+    border-radius: 10rem;
+    box-shadow: 1px 1px 2px 1px hsla(0, 0%, 0%, 0.3);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    input {
+      display: block;
+      flex: 3;
+      padding-left: 1rem;
+      font-size: 1rem;
+      font-weight: 800;
+      width: 100%;
+      border: none;
+      outline: none;
+    }
+    button {
+      flex: 1;
+      background: hsla(0, 0%, 90%, 1);
+      border: none;
+      outline: none;
+    }
+  }
+}

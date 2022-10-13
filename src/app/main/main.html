@@ -1,0 +1,11 @@
+<div id="cardView">
+  <card
+    *ngFor="let i of users"
+    [info]="i"
+    (editUserEvent)="editUser($event)"
+  ></card>
+</div>
+<div id="input">
+  <input [(ngModel)]="editName" [disabled]="input" [(value)]='iValue' />
+  <button (click)="addNew()">{{aNewBtn}}</button>
+</div>
