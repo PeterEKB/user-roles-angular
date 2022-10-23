@@ -1,3 +1,3 @@
 # user-roles-angular
 
-Live Demo: https://user-roles-angular-bx3gdj.stackblitz.io
+Live Demo: https://peterekb.github.io/user-roles-angular/
