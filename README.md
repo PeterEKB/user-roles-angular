@@ -1,5 +1,3 @@
-# user-roles-angular
+# **User Roles (Angular)**
 
-# Live Demo
-
-https://peterekb.github.io/user-roles-angular/
+**Live Demo:** _https://peterekb.github.io/user-roles-angular/_
